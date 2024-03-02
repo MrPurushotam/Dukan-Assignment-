@@ -144,12 +144,12 @@ const Sidebar = () => {
             </div>
         </div>
     </aside>
-    <div className="sm:ml-64">
+    <div className="sm:ml-64 ">
         <div>
-            <div className='w-full flex flex-col'>  
-                <div className="top-bar">
-                    <Topbar/>
-                </div>  
+            <div className="top-bar">
+                <Topbar/>
+            </div>  
+            <div className='w-full flex flex-col p-3 bg-[#fafafa]'>  
                 <div className='overview'>
                     <Overview/>
                 </div>

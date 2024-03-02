@@ -35,8 +35,8 @@ export default RevenueCard
 export const MasterRevenueComponent=({title,orderCount,amount,nextPayment})=>{
 
     return(
-    <div className='shadow-md rounded-lg border-2 border-black m-1 min-w-[300px]'>
-        <div className={`bg-customBlue-500 p-5 hover:bg-customBlue-700`}>
+    <div className='bg-customBlue-500 shadow-md rounded-lg m-1 min-w-[300px]'>
+        <div className={` p-5 hover:bg-customBlue-700 `}>
             <div className={`text-white text-lg flex font-medium items-center`}>
                 {title}
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
