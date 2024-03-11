@@ -9,7 +9,7 @@ const Transaction = () => {
       Transactions | This Month
       </p>
 
-      <div className='grid gap-3 grid-cols-2 w-[15%] '>
+      <div className='grid gap-3 grid-cols-2 w-1/5 max-w-[200px] '>
         <Button count={22} isClicked={false} name={'Payouts'} />
         <Button count={6} isClicked={true} name={'Refunds'} />
       </div>

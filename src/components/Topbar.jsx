@@ -7,11 +7,11 @@ const Topbar = () => {
     <div className='flex flex-row items-center justify-between border-b-2 p-4'>
       <div className='flex flex-row '>
         <p className='font-semibold text-xl mx-2' >Payouts</p>
-        <div className='text-gray-600 text-xs flex-row flex items-center font-normal'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+        <div className='text-xs flex-row flex items-center font-normal gap-1'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-gray-900 font-medium w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
             </svg>
-            <span>How it works</span>
+            <span className='text-gray-600'>How it works</span>
         </div>
       </div>
       <div className='w-[30vw]'>
@@ -24,7 +24,7 @@ const Topbar = () => {
         </svg>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 bg-gray-300 rounded-full p-1 ">
-            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+            <path fillRule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clipRule="evenodd" />
         </svg>
 
       </div>
